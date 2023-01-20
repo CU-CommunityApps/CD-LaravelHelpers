@@ -2,15 +2,15 @@
   "name": "cornell-custom-dev/laravel-helpers",
   "description": "A collection of Laravel utilities for Cornell Custom Development",
   "type": "library",
+  "license": "MIT",
   "require": {
-    "php": "^8.1",
+    "php": "^8.1"
     "propaganistas/laravel-phone": "^4.4"
   },
   "require-dev": {
     "laravel/pint": "^1.0",
     "phpunit/phpunit": "^9.5"
   },
-  "license": "MIT",
   "autoload": {
     "psr-4": {
       "CornellCustomDev\\LaravelHelpers\\": "src",
